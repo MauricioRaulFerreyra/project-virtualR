@@ -33,7 +33,7 @@ const NavBar = () => {
               Create an account
             </a>
           </div>
-          <div className='flex-col justify-end md:flex lg:hidden'>
+          <div className='mr-4 flex-col justify-end sm:m-0 md:m-0 md:flex lg:hidden'>
             <button onClick={handleToogle}>{mobileDrawerOpen ? <X /> : <Menu />}</button>
           </div>
         </aside>
