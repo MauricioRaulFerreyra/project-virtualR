@@ -2,6 +2,7 @@ import NavBar from '../src/components/NavBar'
 import FeactureSection from './components/FeactureSection'
 import HeroSection from './components/HeroSection'
 import Pricing from './components/Pricing'
+import Testimonials from './components/Testimonials'
 import WorkFlow from './components/WorkFlow'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <FeactureSection />
         <WorkFlow />
         <Pricing />
+        <Testimonials />
       </section>
     </>
   )
