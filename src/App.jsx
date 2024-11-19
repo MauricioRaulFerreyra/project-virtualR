@@ -1,5 +1,6 @@
 import NavBar from '../src/components/NavBar'
 import FeactureSection from './components/FeactureSection'
+import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
@@ -15,6 +16,7 @@ function App() {
         <WorkFlow />
         <Pricing />
         <Testimonials />
+        <Footer />
       </section>
     </>
   )
